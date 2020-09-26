@@ -39,6 +39,10 @@ class OnBoardingScreen1 extends StatelessWidget {
               Row(
                 children: [
                   CircleAvatar(
+                      minRadius: 23,
+                      maxRadius: 25,
+                      backgroundColor: Colors.red),
+                  CircleAvatar(
                       minRadius: 23, maxRadius: 25, backgroundColor: Colors.red)
                 ],
               ),
